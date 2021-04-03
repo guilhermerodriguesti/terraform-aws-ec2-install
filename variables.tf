@@ -1,20 +1,24 @@
 variable "region" {
-    default = "us-east-1"
+  default = "us-east-1"
 }
 variable "access_key" {
-    default = ""
+  default = ""
 }
 variable "secret_key" {
-    default = ""
+  default = ""
 }
 variable "instance_type" {
-    default = "t2.micro"
+  default = "t2.micro"
 }
 variable "ami_id" {
-    default = "ami-0742b4e673072066f"
+  default = "ami-0742b4e673072066f"
 }
 
 variable "instance_name" {
-  type = string
+  type    = string
   default = "SRV_WEB01"
+}
+
+variable "key_name" { 
+    default = "webserver" 
 }
