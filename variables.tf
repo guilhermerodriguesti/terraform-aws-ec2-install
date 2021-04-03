@@ -22,3 +22,9 @@ variable "instance_name" {
 variable "key_name" {
   default = "webserver"
 }
+variable "stack" { 
+    default = "webserver"
+}
+variable "availability_zone" {
+ default = "us-east-1a" 
+}
