@@ -1,6 +1,0 @@
-region        = "us-east-1"
-access_key    = ""
-secret_key    = ""
-instance_type = "t2.micro"
-ami_id        = "ami-0742b4e673072066f"
-instance_name = "SRV_WEB01"
