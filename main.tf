@@ -1,6 +1,6 @@
 resource "aws_instance" "ec2" {
-  ami           = var.ami_id
-  instance_type = var.instance_type
+  ami                    = var.ami_id
+  instance_type          = var.instance_type
   key_name               = aws_key_pair.generated_key.key_name
   availability_zone      = var.availability_zone
   subnet_id              = aws_default_subnet.default_az1.id

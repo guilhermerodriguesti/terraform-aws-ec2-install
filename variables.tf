@@ -19,6 +19,6 @@ variable "instance_name" {
   default = "SRV_WEB01"
 }
 
-variable "key_name" { 
-    default = "webserver" 
+variable "key_name" {
+  default = "webserver"
 }
