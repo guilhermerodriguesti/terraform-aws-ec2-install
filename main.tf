@@ -9,7 +9,7 @@ resource "aws_instance" "ec2" {
   connection {
     type        = "ssh"
     user        = "ec2-user"
-    host        = aws_instance.web_ec2.public_ip
+    host        = aws_instance.ec2.public_ip
     private_key = tls_private_key.key.private_key_pem
     timeout     = "10m"
   }
